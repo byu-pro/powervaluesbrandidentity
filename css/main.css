@@ -1,0 +1,89 @@
+/*
+ * Power Values Brand Identity Stylesheet
+ *
+ * This file contains the core styling for the brand guide,
+ * including color palettes, typography, and component-specific styles.
+ *
+ */
+
+/* Define fonts based on usage */
+h1, h2, h3, h4 {
+    font-family: 'Cormorant Garamond', serif;
+    color: #1c6264;
+}
+
+body {
+    font-family: 'Roboto Slab', serif;
+    color: #5e253a;
+    background-color: #fffbfd;
+}
+
+/* Custom styles for specific font usage */
+.rosmatika-font {
+    font-family: 'Rosmatika', sans-serif;
+}
+
+.roboto-font {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Updated Color Palette Classes */
+.text-deep-viridian { color: #1c6264; }
+.bg-deep-viridian { background-color: #1c6264; }
+
+.text-tawny-port { color: #5e253a; }
+.bg-tawny-port { background-color: #5e253a; }
+
+.text-cameo { color: #de97b2; }
+.bg-cameo { background-color: #de97b2; }
+
+.text-charcoal-black { color: #853256; }
+.bg-charcoal-black { background-color: #853256; }
+
+.text-cloud-white { color: #fffbfd; }
+.bg-cloud-white { background-color: #fffbfd; }
+
+.text-stone-gray { color: #5fa3b0; }
+.bg-stone-gray { background-color: #5fa3b0; }
+
+.text-sunrise-gold { color: #f9e266; }
+.bg-sunrise-gold { background-color: #f9e266; }
+
+/* Custom scrollbar updated with new colors */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #fffbfd;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #de97b2;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #5e253a;
+}
+
+.section-header {
+    position: relative;
+    z-index: 10;
+}
+
+.section-header::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -0.5rem;
+    transform: translateX(-50%);
+    width: 5rem;
+    height: 2px;
+    background-color: #f9e266;
+}
+
+.gradient-bg {
+    background: linear-gradient(135deg, #1c6264, #5e253a);
+    color: #fffbfd;
+}
